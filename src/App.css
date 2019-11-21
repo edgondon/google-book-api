@@ -1,22 +1,18 @@
-.App {
-  text-align: center;
+
+
+
+.title {
+  background-color: black;
+  padding-top: 0;
+  margin-bottom: 0;
+  
+
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.tut {
+  font: serif;
   color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
 }
