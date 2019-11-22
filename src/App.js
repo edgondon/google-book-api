@@ -103,7 +103,7 @@ class App extends Component {
                     mySubmitHandler={this.mySubmitHandler}
                     textChange={this.textChange}
                 />
-                {this.state.isSubmitted && <Results data={this.state.data} />}
+                {this.state.isSubmitted && <Results state={this.state} data={this.state.data} />}
             </main>
         );
     }
